@@ -5,7 +5,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   cdkVersion: '2.1.0',
   defaultReleaseBranch: 'main',
   name: 'ed-aws-cdk-constructs',
-  repositoryUrl: 'https://github.com/FBosler/ed-aws-cdk-constructs.git',
+  repositoryUrl: 'https://github.com/everdropde/ed-aws-cdk-constructs.git',
   autoApproveUpgrades: true,
   autoApproveOptions: {
     allowedUsernames: ['FBosler', 'dependabot[bot]'],
