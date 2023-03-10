@@ -1,5 +1,1 @@
-export class Hello {
-  public sayHello() {
-    return 'hello, world!';
-  }
-}
+export { ApiGatewayToSqsToLambda, ApiGatewayToSqsToLambdaProps } from './apigateway-sqs-lambda';
