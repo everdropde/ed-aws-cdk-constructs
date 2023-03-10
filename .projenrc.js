@@ -14,6 +14,10 @@ const project = new awscdk.AwsCdkConstructLibrary({
   description: 'Package provides opinionated constrcuts for common patterns used in everdrop infrastructure',
   // devDeps: [],             /* Build dependencies for this module. */
   packageName: 'everdrop-aws-cdk-constructs',
+  publishToPypi: {
+    distName: 'everdrop-aws-cdk-constructs',
+    module: 'everdrop_aws_cdk_constructs',
+  },
 });
 
 project.gitignore.exclude('.env');
