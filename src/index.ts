@@ -1,1 +1,1 @@
-export { ApiGatewayToSqsToLambda } from './apigateway-sqs-lambda';
+export { ApiGatewayToSqsToLambda, ApiGatewayToSqsToLambdaProps } from './apigateway-sqs-lambda';
